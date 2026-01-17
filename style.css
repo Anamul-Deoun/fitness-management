@@ -5,3 +5,59 @@
     font-family: "Inter", sans-serif;
 }
 
+/* shared styles */
+.banner{
+    max-width: 1060px;
+    margin: auto;
+}
+
+.background{
+    background-color: black;
+}
+
+
+/* navbar styles section */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+
+.brand{
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    color: #e6533c;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 47px;
+    border: 1px solid #ffffff1a;
+    padding: 4px;
+    border-radius: 39px;
+}
+
+.nav-item .nav-link{
+    text-decoration: none;
+    color: #ffffff;
+    /* font-size: 18px; */
+}
+.nav-btn{
+    background-color: #e6533c;
+    padding: 8px 20px;
+    border-radius: 49px;
+    border: 2px solid #e6533c;
+    transition: all .5s;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background: transparent;
+    border: 2px solid #e6533c;
+}
+.about{
+    padding-right: 20px;
+}
